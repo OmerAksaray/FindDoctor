@@ -13,6 +13,6 @@ namespace FindDoctor.Data
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
         public DbSet<DoctorModel> Doctors { get; set; }
-        public DbSet<CustomerModel> Customers { get; set; }
+        public DbSet<PatientModel> Customers { get; set; }
     }
 }

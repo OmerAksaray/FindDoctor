@@ -18,12 +18,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\ASP.NETCoreProjects\FindDoctor\FindDoctor
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/ASP.NETCoreProjects/FindDoctor/FindDoctor/Views/Doctor/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ASP.NETCoreProjects/FindDoctor/FindDoctor/Views/Doctor/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/ASP.NETCoreProjects/FindDoctor/FindDoctor/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/ASP.NETCoreProjects/FindDoctor/FindDoctor/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ASP.NETCoreProjects/FindDoctor/FindDoctor/Views/Patient/Consultation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxDb25zdWx0YXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ASP.NETCoreProjects/FindDoctor/FindDoctor/Views/Patient/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/ASP.NETCoreProjects/FindDoctor/FindDoctor/Views/Shared/Error.cshtml]

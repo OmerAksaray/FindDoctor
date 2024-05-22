@@ -1,0 +1,30 @@
+﻿@model List<PatientModel>
+
+
+
+<div class="container">
+    <h2 class="text-center">List Page</h2>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var patient in Model)
+            {
+                for (var i=0; i<patient.Description.Count;i++)
+                {
+                    <tr>
+                        <td>@patient.Name @patient.Surname</td>
+                        <td colspan="2">@patient.Description[i]</td>
+                        <td><button class="btn btn-primary">View</button></td>
+                    </tr>
+                }
+            }
+            
+        </tbody>
+    </table>
+</div>

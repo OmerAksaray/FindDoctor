@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FindDoctor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6a51b72751aa49518456730a1e093de714c2c13")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("FindDoctor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FindDoctor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
