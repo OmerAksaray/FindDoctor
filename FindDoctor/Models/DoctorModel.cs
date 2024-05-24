@@ -13,5 +13,9 @@ namespace FindDoctor.Models
         public string Surname { get; set; }
         [Required]
         public string Department { get; set; }
+
+        public ICollection<string>? DiseaseDetection { get; set; }
+
+
     }
 }

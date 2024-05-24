@@ -1,14 +1,13 @@
 ﻿@model List<PatientModel>
 
-
-
 <div class="container">
-    <h2 class="text-center">List Page</h2>
+    <h2 class="text-center">List Page For Doctors</h2>
     <table class="table table-hover">
         <thead>
             <tr>
                 <th scope="col">Name</th>
                 <th scope="col">Description</th>
+                <th scope="col">Recommendation</th>
                 <th scope="col">Action</th>
             </tr>
         </thead>
@@ -19,12 +18,23 @@
                 {
                     <tr>
                         <td>@patient.Name @patient.Surname</td>
-                        <td colspan="2">@patient.Description[i]</td>
-                        <td><a class="btn btn-primary" asp-controller="Doctor" asp-action="Details" asp-route-id="@patient.CustomerId" asp-route-descriptionID="@i">View</a></td>
+                        <td>@patient.Description[i]</td>
+                        <td>
+                            @{
+                                string diseaseDetection = string.Join(", ", patient.DiseaseDetection);
+                                if (string.IsNullOrEmpty(diseaseDetection))
+                                {
+                                    diseaseDetection = "No recommendation yet.";
+                                }
+                                @diseaseDetection
+                            }
+                        </td>
+                        <td>
+                            <a class="btn btn-primary" asp-controller="Doctor" asp-action="Details" asp-route-id="@patient.CustomerId" asp-route-descriptionID="@i">View</a>
+                        </td>
                     </tr>
                 }
             }
-
         </tbody>
     </table>
 </div>
