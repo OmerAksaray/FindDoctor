@@ -1,45 +1,34 @@
-﻿@model PatientModel
-@{
+﻿@model FindDoctor.Models.PatientModel
 
-    int descriptionID = ViewBag.descriptionID;
-    string? detection = "";
-    string? description = Model.Description[descriptionID];
-    if (descriptionID >= 0 && descriptionID < Model.Description.Count)
-    {
-
-
-
-        // DiseaseDetection için de aynı kontrolü yap
-        if (descriptionID < Model.DiseaseDetection.Count && (Model.DiseaseDetection[descriptionID] == null || Model.DiseaseDetection[descriptionID] == ""))
-        {
-            detection = "DiseaseDetection";
-        }
-        else if (descriptionID < Model.DiseaseDetection.Count)
-        {
-            detection = Model.DiseaseDetection[descriptionID];
-        }
-    }
-}
 <div class="container">
     <h2 class="text-center">Patient Message Form For Doctors</h2>
     <form method="post">
         <input asp-for="CustomerId" hidden />
         <div class="form-group">
             <label>Patient Message:</label>
-            <input asp-for="@description" class="form-control" rows="5" disabled></input>
+            <textarea asp-for="Description" class="form-control" rows="5" disabled>@Model.Description</textarea>
             <span asp-validation-for="Description" class="text-danger"></span>
         </div>
         <div class="form-group">
-            <label for="report">Upload a Report:</label>
-            <input type="file" id="report" class="form-control">
+            <label>Doctor Responses:</label>
+            @if (Model.DescriptionDetections != null && Model.DescriptionDetections.Any())
+            {
+                @foreach (var detection in Model.DescriptionDetections)
+                {
+                    <div class="form-group">
+                        <textarea class="form-control" rows="5" disabled>@detection.DiseaseDetection</textarea>
+                    </div>
+                }
+            }
+            else
+            {
+                <p>No responses yet.</p>
+            }
         </div>
         <div class="form-group">
-            <label for="response">Response from Doctor:</label>
-            <input asp-for="DiseaseDetection" class="form-control" value="@string.Join(", ", Model.DiseaseDetection)"></input>
-          
-           
-            <span asp-validation-for="DiseaseDetection" class="text-danger"></span>
+            <label for="response">Add or Update Response:</label>
+            <textarea name="diseaseDetection" rows="5" class="form-control"></textarea>
         </div>
-        <button class="btn btn-primary mt-3">Add Message</button>
+        <button type="submit" class="btn btn-primary mt-3">Submit Response</button>
     </form>
 </div>

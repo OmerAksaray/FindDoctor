@@ -14,5 +14,15 @@ namespace FindDoctor.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
         public DbSet<DoctorModel> Doctors { get; set; }
         public DbSet<PatientModel> Customers { get; set; }
+        public DbSet<PatientDescriptionDetection> DescriptionDetections { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<PatientModel>()
+                .HasMany(p => p.DescriptionDetections)
+                .WithOne(d => d.Patient)
+                .HasForeignKey(d => d.PatientId);
+
+        }
+
     }
 }

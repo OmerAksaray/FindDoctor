@@ -33,9 +33,6 @@ namespace FindDoctor.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("DiseaseDetection")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -47,6 +44,35 @@ namespace FindDoctor.Migrations
                     b.HasKey("DoctorId");
 
                     b.ToTable("Doctors");
+                });
+
+            modelBuilder.Entity("FindDoctor.Models.PatientDescriptionDetection", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DiseaseDetection")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("DoctorId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PatientId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DoctorId");
+
+                    b.HasIndex("PatientId");
+
+                    b.ToTable("DescriptionDetections");
                 });
 
             modelBuilder.Entity("FindDoctor.Models.PatientModel", b =>
@@ -61,15 +87,10 @@ namespace FindDoctor.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("DiseaseDetection")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ReportFile")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Surname")
@@ -78,6 +99,35 @@ namespace FindDoctor.Migrations
                     b.HasKey("CustomerId");
 
                     b.ToTable("Customers");
+                });
+
+            modelBuilder.Entity("FindDoctor.Models.PatientDescriptionDetection", b =>
+                {
+                    b.HasOne("FindDoctor.Models.DoctorModel", "Doctor")
+                        .WithMany("DescriptionDetections")
+                        .HasForeignKey("DoctorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("FindDoctor.Models.PatientModel", "Patient")
+                        .WithMany("DescriptionDetections")
+                        .HasForeignKey("PatientId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Doctor");
+
+                    b.Navigation("Patient");
+                });
+
+            modelBuilder.Entity("FindDoctor.Models.DoctorModel", b =>
+                {
+                    b.Navigation("DescriptionDetections");
+                });
+
+            modelBuilder.Entity("FindDoctor.Models.PatientModel", b =>
+                {
+                    b.Navigation("DescriptionDetections");
                 });
 #pragma warning restore 612, 618
         }

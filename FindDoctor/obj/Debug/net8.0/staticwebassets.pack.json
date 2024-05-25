@@ -13,6 +13,62 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\06e2ab2c-1879-4c98-add0-e1fd259961a4.png",
+      "PackagePath": "staticwebassets\\images\\reports\\06e2ab2c-1879-4c98-add0-e1fd259961a4.png"
+    },
+    {
+      "Id": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\0a2e6c48-c083-4480-a6c6-9d334e27e843.jpg",
+      "PackagePath": "staticwebassets\\images\\reports\\0a2e6c48-c083-4480-a6c6-9d334e27e843.jpg"
+    },
+    {
+      "Id": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\0a80a4c5-f2ef-443e-8a94-c422bff0d75e.png",
+      "PackagePath": "staticwebassets\\images\\reports\\0a80a4c5-f2ef-443e-8a94-c422bff0d75e.png"
+    },
+    {
+      "Id": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\17e52ca0-2376-434f-a6e7-cbb17d5d2e03.jpg",
+      "PackagePath": "staticwebassets\\images\\reports\\17e52ca0-2376-434f-a6e7-cbb17d5d2e03.jpg"
+    },
+    {
+      "Id": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\26a1a1ef-d3ef-4634-a47d-805d9e0a999e.png",
+      "PackagePath": "staticwebassets\\images\\reports\\26a1a1ef-d3ef-4634-a47d-805d9e0a999e.png"
+    },
+    {
+      "Id": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\2a0df31b-df4a-43d7-8ffb-f3f7d1567d69.png",
+      "PackagePath": "staticwebassets\\images\\reports\\2a0df31b-df4a-43d7-8ffb-f3f7d1567d69.png"
+    },
+    {
+      "Id": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\73a02578-50dd-4491-bca5-b563d880833c.png",
+      "PackagePath": "staticwebassets\\images\\reports\\73a02578-50dd-4491-bca5-b563d880833c.png"
+    },
+    {
+      "Id": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\7babe337-2c9d-43e7-a065-b73ff57bc884.png",
+      "PackagePath": "staticwebassets\\images\\reports\\7babe337-2c9d-43e7-a065-b73ff57bc884.png"
+    },
+    {
+      "Id": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\8724c343-9a0e-496d-86d3-0f20809e03f0.png",
+      "PackagePath": "staticwebassets\\images\\reports\\8724c343-9a0e-496d-86d3-0f20809e03f0.png"
+    },
+    {
+      "Id": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\b656dd0e-ef1c-4122-9ddf-eb8787e20a82.jpg",
+      "PackagePath": "staticwebassets\\images\\reports\\b656dd0e-ef1c-4122-9ddf-eb8787e20a82.jpg"
+    },
+    {
+      "Id": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\c4811fbe-abda-46c1-bef0-73ba018708c7.png",
+      "PackagePath": "staticwebassets\\images\\reports\\c4811fbe-abda-46c1-bef0-73ba018708c7.png"
+    },
+    {
+      "Id": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\c71bb10a-29f7-46a2-a6f6-104b7435a951.png",
+      "PackagePath": "staticwebassets\\images\\reports\\c71bb10a-29f7-46a2-a6f6-104b7435a951.png"
+    },
+    {
+      "Id": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\e599bad9-189d-4ed6-aaf4-8c3e244cc3cd.jpg",
+      "PackagePath": "staticwebassets\\images\\reports\\e599bad9-189d-4ed6-aaf4-8c3e244cc3cd.jpg"
+    },
+    {
+      "Id": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\eb05db12-57af-4259-9dcf-c7b38eac18b7.jpg",
+      "PackagePath": "staticwebassets\\images\\reports\\eb05db12-57af-4259-9dcf-c7b38eac18b7.jpg"
+    },
+    {
       "Id": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
