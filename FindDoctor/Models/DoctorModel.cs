@@ -18,5 +18,7 @@ namespace FindDoctor.Models
         public string Department { get; set; }
         [ValidateNever]
         public ICollection<PatientDescriptionDetection> DescriptionDetections { get; set; }
+
+        public virtual ICollection<PatientModel>? Patients { get; set; }
     }
 }

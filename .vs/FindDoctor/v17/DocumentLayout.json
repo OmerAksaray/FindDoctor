@@ -1,30 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\ASP.NETCoreProjects\\FindDoctor\\",
+  "WorkspaceRootPath": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|c:\\asp.netcoreprojects\\finddoctor\\finddoctor\\views\\patient\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|solutionrelative:finddoctor\\views\\patient\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|c:\\asp.netcoreprojects\\finddoctor\\finddoctor\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|c:\\users\\oaksa\\source\\repos\\finddoctor\\finddoctor\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|solutionrelative:finddoctor\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|c:\\asp.netcoreprojects\\finddoctor\\finddoctor\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|solutionrelative:finddoctor\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|c:\\users\\oaksa\\source\\repos\\finddoctor\\finddoctor\\views\\patient\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|solutionrelative:finddoctor\\views\\patient\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|c:\\asp.netcoreprojects\\finddoctor\\finddoctor\\views\\doctor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|solutionrelative:finddoctor\\views\\doctor\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|c:\\users\\oaksa\\source\\repos\\finddoctor\\finddoctor\\models\\patientdescriptiondetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|solutionrelative:finddoctor\\models\\patientdescriptiondetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|c:\\asp.netcoreprojects\\finddoctor\\finddoctor\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|solutionrelative:finddoctor\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|c:\\users\\oaksa\\source\\repos\\finddoctor\\finddoctor\\models\\patientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|solutionrelative:finddoctor\\models\\patientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|c:\\asp.netcoreprojects\\finddoctor\\finddoctor\\views\\doctor\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|solutionrelative:finddoctor\\views\\doctor\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|c:\\users\\oaksa\\source\\repos\\finddoctor\\finddoctor\\models\\patientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|solutionrelative:finddoctor\\models\\patientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,80 +38,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PatientController.cs",
-              "DocumentMoniker": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\Controllers\\PatientController.cs",
+              "DocumentMoniker": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\Controllers\\PatientController.cs",
               "RelativeDocumentMoniker": "FindDoctor\\Controllers\\PatientController.cs",
-              "ToolTip": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\Controllers\\PatientController.cs",
+              "ToolTip": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\Controllers\\PatientController.cs",
               "RelativeToolTip": "FindDoctor\\Controllers\\PatientController.cs",
-              "ViewState": "AQIAAEkAAAAAAAAAAAAAAFgAAAAAAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAqwCkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T16:18:58.505Z",
+              "WhenOpened": "2024-05-26T17:36:47.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DoctorController.cs",
-              "DocumentMoniker": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\Controllers\\DoctorController.cs",
-              "RelativeDocumentMoniker": "FindDoctor\\Controllers\\DoctorController.cs",
-              "ToolTip": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\Controllers\\DoctorController.cs",
-              "RelativeToolTip": "FindDoctor\\Controllers\\DoctorController.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAACAAAAAkAAAA",
+              "Title": "PatientDescriptionDetection.cs",
+              "DocumentMoniker": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\Models\\PatientDescriptionDetection.cs",
+              "RelativeDocumentMoniker": "FindDoctor\\Models\\PatientDescriptionDetection.cs",
+              "ToolTip": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\Models\\PatientDescriptionDetection.cs",
+              "RelativeToolTip": "FindDoctor\\Models\\PatientDescriptionDetection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T16:17:03.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "FindDoctor\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "FindDoctor\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-25T16:16:28.329Z",
+              "WhenOpened": "2024-05-26T17:35:25.959Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\Views\\Doctor\\Details.cshtml",
-              "RelativeDocumentMoniker": "FindDoctor\\Views\\Doctor\\Details.cshtml",
-              "ToolTip": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\Views\\Doctor\\Details.cshtml",
-              "RelativeToolTip": "FindDoctor\\Views\\Doctor\\Details.cshtml",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBcAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-25T16:13:38.442Z",
+              "Title": "PatientModel.cs",
+              "DocumentMoniker": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\Models\\PatientModel.cs",
+              "RelativeDocumentMoniker": "FindDoctor\\Models\\PatientModel.cs",
+              "ToolTip": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\Models\\PatientModel.cs",
+              "RelativeToolTip": "FindDoctor\\Models\\PatientModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAgwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T17:35:19.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "PatientViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\Models\\PatientViewModel.cs",
+              "RelativeDocumentMoniker": "FindDoctor\\Models\\PatientViewModel.cs",
+              "ToolTip": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\Models\\PatientViewModel.cs",
+              "RelativeToolTip": "FindDoctor\\Models\\PatientViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T17:27:30.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\Views\\Doctor\\List.cshtml",
-              "RelativeDocumentMoniker": "FindDoctor\\Views\\Doctor\\List.cshtml",
-              "ToolTip": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\Views\\Doctor\\List.cshtml",
-              "RelativeToolTip": "FindDoctor\\Views\\Doctor\\List.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACQAAAAZAAAA",
+              "DocumentMoniker": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\Views\\Patient\\List.cshtml",
+              "RelativeDocumentMoniker": "FindDoctor\\Views\\Patient\\List.cshtml",
+              "ToolTip": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\Views\\Patient\\List.cshtml",
+              "RelativeToolTip": "FindDoctor\\Views\\Patient\\List.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAkwCoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-25T16:09:53.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\Views\\Patient\\Update.cshtml",
-              "RelativeDocumentMoniker": "FindDoctor\\Views\\Patient\\Update.cshtml",
-              "ToolTip": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\Views\\Patient\\Update.cshtml",
-              "RelativeToolTip": "FindDoctor\\Views\\Patient\\Update.cshtml",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABQAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-25T16:02:39.749Z",
+              "WhenOpened": "2024-05-26T17:12:57.997Z",
               "EditorCaption": ""
             }
           ]

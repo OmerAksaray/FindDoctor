@@ -1,21 +1,30 @@
-﻿@model PatientModel
+﻿
+@model PatientViewModel
 <div class="container">
     <h2 class="text-center">Patient Message Form</h2>
     <form method="post" enctype="multipart/form-data">
         <div class="form-group">
             <label >Patient Message:</label>
-            <input asp-for="Description" class="form-control" rows="5"></input>
-            <span asp-validation-for="Description" class="text-danger"></span>
+            <input asp-for="@Model._PatientModel.Description" class="form-control" rows="5"></input>
+            <span asp-validation-for="@Model._PatientModel.Description" class="text-danger"></span>
         </div>
         <div class="form-group">
             <label for="ReportFile">Upload a Report:</label>
-            <input asp-for="ReportFile" type="file" class="form-control border border-black" name="file">
+            <input asp-for="@Model._PatientModel.ReportFile" type="file" class="form-control border border-black" name="file">
+        </div>
+       
+        <div class="form-group mt-3">
+            <select asp-for="@Model._PatientModel.DoctorId" asp-items="@Model.DeartmentList" class="form-select border border-black">
+                <option disabled selected>--Select Department--</option>
+            </select>
         </div>
         <div class="form-group">
             <label for="response">Response from Doctor:</label>
-            <input asp-for="DescriptionDetections" class="form-control" rows="5" disabled></input>
+            <input asp-for="@Model._PatientModel.DescriptionDetections" class="form-control" rows="5" disabled></input>
             
         </div>
+       
+      
         <button class="btn btn-primary" >Add Message</button>
     </form>
 </div>

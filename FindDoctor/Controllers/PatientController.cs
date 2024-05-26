@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using System.IO;
 using System.Threading.Tasks;
 using System;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace FindDoctor.Controllers
 {
@@ -26,11 +27,29 @@ namespace FindDoctor.Controllers
         [HttpGet]
         public IActionResult Consultation()
         {
-            return View();
+            
+            PatientViewModel patientViewModel = new PatientViewModel
+            {
+                _PatientModel = new PatientModel(),
+                DeartmentList = _applicationDbContext.Doctors.Where(n => n.DoctorId > 0).Select(
+                    s=> new SelectListItem
+                    {
+                        Text = s.Department,
+                        Value= s.DoctorId.ToString()
+                    }
+                    )
+            };
+
+
+           
+                return View(patientViewModel);
+
+           
         }
 
+
         [HttpPost]
-        public async Task<IActionResult> ConsultationAsync(PatientModel patientModel, IFormFile? file)
+        public async Task<IActionResult> ConsultationAsync(PatientViewModel patientModel, IFormFile? file)
         {
             if (ModelState.IsValid)
             {
@@ -56,8 +75,8 @@ namespace FindDoctor.Controllers
                     }
 
                    
-                    patientModel.ReportFile = "/images/reports/" + fileName;
-                    _applicationDbContext.Customers.Add(patientModel);
+                    patientModel._PatientModel.ReportFile = "/images/reports/" + fileName;
+                    _applicationDbContext.Customers.Add(patientModel._PatientModel);
 
                     await _applicationDbContext.SaveChangesAsync();
                 }
@@ -67,48 +86,71 @@ namespace FindDoctor.Controllers
             return View();
         }
 
-      
+
         public IActionResult List()
         {
-            var listOfPatients = _applicationDbContext.Customers.ToList();
-            return View(listOfPatients);
+            var patients = _applicationDbContext.Customers
+                .Include(p => p.DescriptionDetections) // Ensure related data is included
+                .ToList();
+
+            var departmentList = _applicationDbContext.Doctors
+                .Where(n => n.DoctorId > 0)
+                .Select(s => new SelectListItem
+                {
+                    Text = s.Department,
+                    Value = s.DoctorId.ToString()
+                }).ToList();
+
+            var patientViewModels = patients.Select(patient => new PatientViewModel
+            {
+                _PatientModel = patient,
+                DeartmentList = departmentList
+            }).ToList();
+
+            return View(patientViewModels);
         }
 
-       
+
+
+
         [HttpGet]
         public IActionResult Update(int? id)
         {
-            if (id == null)
+
+            PatientViewModel patientViewModel = new PatientViewModel
             {
-                return NotFound();
-            }
+                _PatientModel = new PatientModel(),
+                DeartmentList = _applicationDbContext.Doctors.Where(n => n.DoctorId > 0).Select(
+                    s => new SelectListItem
+                    {
+                        Text = s.Department,
+                        Value = s.DoctorId.ToString()
+                    }
+                    )
+            };
 
-            var patient = _applicationDbContext.Customers
-                .Include(p => p.DescriptionDetections)
-                .FirstOrDefault(p => p.CustomerId == id);
+            patientViewModel._PatientModel = _applicationDbContext.Customers
+               .Include(p => p.DescriptionDetections)
 
-            if (patient == null)
-            {
-                return NotFound();
-            }
-
-            return View(patient);
+               .FirstOrDefault(a => a.CustomerId == id);
+            return View(patientViewModel);
+           
         }
 
 
 
         [HttpPost]
-        public async Task<IActionResult> Update(PatientModel? patientModel, IFormFile? file, bool? delete)
+        public async Task<IActionResult> Update(PatientViewModel? patientModel, IFormFile? file, bool? delete)
         {
             if (delete==true)
             {
-                _applicationDbContext.Customers.Remove(patientModel);
+                _applicationDbContext.Customers.Remove(patientModel._PatientModel);
                 _applicationDbContext.SaveChanges();
                 return RedirectToAction("List");
             }
             if (ModelState.IsValid)
             {
-                var patient = await _applicationDbContext.Customers.FindAsync(patientModel.CustomerId);
+                var patient = await _applicationDbContext.Customers.FindAsync(patientModel._PatientModel.CustomerId);
                 if (patient == null)
                 {
                     return NotFound();
@@ -139,11 +181,11 @@ namespace FindDoctor.Controllers
                 }
 
                 
-                patient.Name = patientModel.Name;
-                patient.Surname = patientModel.Surname;
-                patient.Description = patientModel.Description;
-                patient.DescriptionDetections = patientModel.DescriptionDetections;
-
+                patient.Name = patientModel._PatientModel.Name;
+                patient.Surname = patientModel._PatientModel.Surname;
+                patient.Description = patientModel._PatientModel.Description;
+                patient.DescriptionDetections = patientModel._PatientModel.DescriptionDetections;
+                patient.DoctorId = patientModel._PatientModel.DoctorId;
                 _applicationDbContext.Update(patient);
                 await _applicationDbContext.SaveChangesAsync();
 

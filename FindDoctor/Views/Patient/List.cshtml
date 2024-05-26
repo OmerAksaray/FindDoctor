@@ -1,6 +1,4 @@
-﻿@model List<PatientModel>
-
-
+﻿@model List<PatientViewModel>
 
 <div class="container">
     <h2 class="text-center">List Page</h2>
@@ -10,24 +8,37 @@
                 <th scope="col">#</th>
                 <th scope="col">Name</th>
                 <th scope="col">Description</th>
+                <th scope="col">Recommendation</th>
                 <th scope="col">Action</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var patient in Model)
             {
-                
-                    <tr>
+                <tr>
                     <td>
-                        <img src="@patient.ReportFile" alt="Report Image" style="max-width: 100px; max-height: 100px;" />
+                        <img src="@patient._PatientModel.ReportFile" alt="Report Image" style="max-width: 100px; max-height: 100px;" />
                     </td>
-                        <td>@patient.Name @patient.Surname</td>
-                        <td colspan="2">@patient.Description</td>
-                        <td><a class="btn btn-primary" asp-action="update" asp-route-id="@patient.CustomerId" >View</a></td>
-                    </tr>
-                
+                    <td>@patient._PatientModel.Name @patient._PatientModel.Surname</td>
+                    <td>@patient._PatientModel.Description</td>
+                    <td>
+                        @if (patient._PatientModel.DescriptionDetections != null && patient._PatientModel.DescriptionDetections.Any())
+                        {
+                            <ul>
+                                @foreach (var detection in patient._PatientModel.DescriptionDetections)
+                                {
+                                    <li>@detection.DiseaseDetection</li>
+                                }
+                            </ul>
+                        }
+                        else
+                        {
+                            <span>No recommendations</span>
+                        }
+                    </td>
+                    <td><a class="btn btn-primary" asp-action="update" asp-route-id="@patient._PatientModel.CustomerId">View</a></td>
+                </tr>
             }
-            
         </tbody>
     </table>
 </div>

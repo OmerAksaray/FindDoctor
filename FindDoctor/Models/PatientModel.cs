@@ -18,5 +18,10 @@ namespace FindDoctor.Models
 
         [ValidateNever]
         public ICollection<PatientDescriptionDetection> DescriptionDetections { get; set; }
+
+        [ForeignKey("Doctor")]
+        public int? DoctorId { get; set; }
+        [ValidateNever]
+        public DoctorModel? Doctor { get; set; }
     }
 }

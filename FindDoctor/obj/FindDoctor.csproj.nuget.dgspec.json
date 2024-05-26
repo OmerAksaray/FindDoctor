@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\FindDoctor.csproj": {}
+    "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\FindDoctor.csproj": {}
   },
   "projects": {
-    "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\FindDoctor.csproj": {
+    "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\FindDoctor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\FindDoctor.csproj",
+        "projectUniqueName": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\FindDoctor.csproj",
         "projectName": "FindDoctor",
-        "projectPath": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\FindDoctor.csproj",
+        "projectPath": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\FindDoctor.csproj",
         "packagesPath": "C:\\Users\\oaksa\\.nuget\\packages\\",
-        "outputPath": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\obj\\",
+        "outputPath": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oaksa\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Wgr74ZM9JfM=",
+  "dgSpecHash": "WwiGRyRMSE0=",
   "success": true,
-  "projectFilePath": "C:\\ASP.NETCoreProjects\\FindDoctor\\FindDoctor\\FindDoctor.csproj",
+  "projectFilePath": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\FindDoctor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oaksa\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\oaksa\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
