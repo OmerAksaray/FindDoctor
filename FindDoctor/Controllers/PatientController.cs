@@ -1,5 +1,5 @@
 ﻿using FindDoctor.Data;
-using FindDoctor.Models;
+using Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
@@ -8,6 +8,7 @@ using System.IO;
 using System.Threading.Tasks;
 using System;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using FindDoctor.Models;
 
 namespace FindDoctor.Controllers
 {

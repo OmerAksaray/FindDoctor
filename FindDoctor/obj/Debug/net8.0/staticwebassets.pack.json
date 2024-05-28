@@ -1,311 +1,319 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FindDoctor.bundle.scp.css",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FindDoctor.bundle.scp.css",
       "PackagePath": "staticwebassets\\FindDoctor.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\06e2ab2c-1879-4c98-add0-e1fd259961a4.png",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\06e2ab2c-1879-4c98-add0-e1fd259961a4.png",
       "PackagePath": "staticwebassets\\images\\reports\\06e2ab2c-1879-4c98-add0-e1fd259961a4.png"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\0a2e6c48-c083-4480-a6c6-9d334e27e843.jpg",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\0a2e6c48-c083-4480-a6c6-9d334e27e843.jpg",
       "PackagePath": "staticwebassets\\images\\reports\\0a2e6c48-c083-4480-a6c6-9d334e27e843.jpg"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\0a80a4c5-f2ef-443e-8a94-c422bff0d75e.png",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\0a80a4c5-f2ef-443e-8a94-c422bff0d75e.png",
       "PackagePath": "staticwebassets\\images\\reports\\0a80a4c5-f2ef-443e-8a94-c422bff0d75e.png"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\17e52ca0-2376-434f-a6e7-cbb17d5d2e03.jpg",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\17e52ca0-2376-434f-a6e7-cbb17d5d2e03.jpg",
       "PackagePath": "staticwebassets\\images\\reports\\17e52ca0-2376-434f-a6e7-cbb17d5d2e03.jpg"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\26a1a1ef-d3ef-4634-a47d-805d9e0a999e.png",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\2318f67e-c28f-4f15-a1d7-1c9312d01886.png",
+      "PackagePath": "staticwebassets\\images\\reports\\2318f67e-c28f-4f15-a1d7-1c9312d01886.png"
+    },
+    {
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\26a1a1ef-d3ef-4634-a47d-805d9e0a999e.png",
       "PackagePath": "staticwebassets\\images\\reports\\26a1a1ef-d3ef-4634-a47d-805d9e0a999e.png"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\2a0df31b-df4a-43d7-8ffb-f3f7d1567d69.png",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\2a0df31b-df4a-43d7-8ffb-f3f7d1567d69.png",
       "PackagePath": "staticwebassets\\images\\reports\\2a0df31b-df4a-43d7-8ffb-f3f7d1567d69.png"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\40980087-b6c4-4738-91a3-859ea3c921e5.png",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\305b7361-7be1-4c9a-b61b-6ebe50ae893e.jpg",
+      "PackagePath": "staticwebassets\\images\\reports\\305b7361-7be1-4c9a-b61b-6ebe50ae893e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\40980087-b6c4-4738-91a3-859ea3c921e5.png",
       "PackagePath": "staticwebassets\\images\\reports\\40980087-b6c4-4738-91a3-859ea3c921e5.png"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\73a02578-50dd-4491-bca5-b563d880833c.png",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\73a02578-50dd-4491-bca5-b563d880833c.png",
       "PackagePath": "staticwebassets\\images\\reports\\73a02578-50dd-4491-bca5-b563d880833c.png"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\7babe337-2c9d-43e7-a065-b73ff57bc884.png",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\7babe337-2c9d-43e7-a065-b73ff57bc884.png",
       "PackagePath": "staticwebassets\\images\\reports\\7babe337-2c9d-43e7-a065-b73ff57bc884.png"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\8724c343-9a0e-496d-86d3-0f20809e03f0.png",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\8724c343-9a0e-496d-86d3-0f20809e03f0.png",
       "PackagePath": "staticwebassets\\images\\reports\\8724c343-9a0e-496d-86d3-0f20809e03f0.png"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\b656dd0e-ef1c-4122-9ddf-eb8787e20a82.jpg",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\b656dd0e-ef1c-4122-9ddf-eb8787e20a82.jpg",
       "PackagePath": "staticwebassets\\images\\reports\\b656dd0e-ef1c-4122-9ddf-eb8787e20a82.jpg"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\c4811fbe-abda-46c1-bef0-73ba018708c7.png",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\c4811fbe-abda-46c1-bef0-73ba018708c7.png",
       "PackagePath": "staticwebassets\\images\\reports\\c4811fbe-abda-46c1-bef0-73ba018708c7.png"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\c71bb10a-29f7-46a2-a6f6-104b7435a951.png",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\c71bb10a-29f7-46a2-a6f6-104b7435a951.png",
       "PackagePath": "staticwebassets\\images\\reports\\c71bb10a-29f7-46a2-a6f6-104b7435a951.png"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\e599bad9-189d-4ed6-aaf4-8c3e244cc3cd.jpg",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\e599bad9-189d-4ed6-aaf4-8c3e244cc3cd.jpg",
       "PackagePath": "staticwebassets\\images\\reports\\e599bad9-189d-4ed6-aaf4-8c3e244cc3cd.jpg"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\eb05db12-57af-4259-9dcf-c7b38eac18b7.jpg",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\eb05db12-57af-4259-9dcf-c7b38eac18b7.jpg",
       "PackagePath": "staticwebassets\\images\\reports\\eb05db12-57af-4259-9dcf-c7b38eac18b7.jpg"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\fa0bf050-c725-4c8d-bfb7-4883eae0fbac.jpg",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\images\\reports\\fa0bf050-c725-4c8d-bfb7-4883eae0fbac.jpg",
       "PackagePath": "staticwebassets\\images\\reports\\fa0bf050-c725-4c8d-bfb7-4883eae0fbac.jpg"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\oaksa\\Source\\Repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
