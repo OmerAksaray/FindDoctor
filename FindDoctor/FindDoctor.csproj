@@ -20,9 +20,4 @@
     <Folder Include="wwwroot\images\reports\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\DataAccess\DataAccess.csproj" />
-    <ProjectReference Include="..\Models\Models.csproj" />
-  </ItemGroup>
-
 </Project>

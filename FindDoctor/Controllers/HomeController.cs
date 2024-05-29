@@ -1,7 +1,6 @@
-using Models;
+using FindDoctor.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using FindDoctor.Models;
 
 namespace FindDoctor.Controllers
 {
