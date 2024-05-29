@@ -1,5 +1,9 @@
 using FindDoctor.Data;
+using Models;
+using DataAccess;
 using Microsoft.EntityFrameworkCore;
+using DataAccess.Repository.IRepository;
+using DataAccess.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +11,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+
+builder.Services.AddScoped<IDoctorRepository, DoctorRepository>();
+builder.Services.AddScoped<IPatientRepository, PatientRepository>();
+builder.Services.AddScoped<IDescriptionDetectionRepository, DescriptionDetectionRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

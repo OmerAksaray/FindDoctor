@@ -1,4 +1,4 @@
-﻿@model FindDoctor.Models.PatientViewModel
+﻿@model PatientViewModel
 @{
     string noReccomendation = "No reccomendations yet.";
 }
@@ -16,25 +16,27 @@
             <input asp-for="@Model._PatientModel.ReportFile" type="file" class="form-control border border-black" name="file">
         </div>
         <div class="form-group mt-3">
-            <select asp-for="@Model._PatientModel.DoctorId" asp-items="@Model.DeartmentList" class="form-select border border-black">
+            <select asp-for="@Model._PatientModel.DoctorId" asp-items="@Model.DepartmentList" class="form-select border border-black">
                 <option disabled selected>--Select Department--</option>
             </select>
         </div>
         <div class="form-group">
             <label for="response">Response from Doctor:</label>
             <textarea class="form-control" rows="5" disabled>
-                @if (@Model._PatientModel.DescriptionDetections != null && @Model._PatientModel.DescriptionDetections.Any())
+                @if (ViewBag.DescriptionDetection==null)
                 {
                
-                    @foreach (var detection in @Model._PatientModel.DescriptionDetections)
-                        {
-                    @detection.DiseaseDetection
-                        }
+                 
+
+                    @noReccomendation
+                    
                        
                 }
                 else
                 {
-                    @noReccomendation
+                  
+                       @ViewBag.DescriptionDetection
+                  
                 }
             </textarea>
         </div>

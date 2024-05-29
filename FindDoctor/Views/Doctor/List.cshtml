@@ -1,4 +1,4 @@
-﻿@model List<FindDoctor.Models.PatientModel>
+﻿@model List<PatientModel>
 
 <div class="container">
     <h2 class="text-center">List Page For Doctors</h2>
@@ -21,14 +21,12 @@
                     </td>
                     <td>@patient.Name @patient.Surname</td>
                     <td>@patient.Description</td>
+
                     <td>
-                        @if (patient.DescriptionDetections != null && patient.DescriptionDetections.Any())
+                        @if (ViewBag.ListOfResponse.ContainsKey(patient.CustomerId))
                         {
                             <ul>
-                                @foreach (var detection in patient.DescriptionDetections)
-                                {
-                                    <li>@detection.DiseaseDetection</li>
-                                }
+                                <li>@ViewBag.ListOfResponse[patient.CustomerId].DiseaseDetection</li>
                             </ul>
                         }
                         else
@@ -41,6 +39,7 @@
                     </td>
                 </tr>
             }
+
         </tbody>
     </table>
 </div>

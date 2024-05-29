@@ -7,20 +7,12 @@
       "RelativeMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|solutionrelative:finddoctor\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|c:\\users\\oaksa\\source\\repos\\finddoctor\\finddoctor\\views\\patient\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|solutionrelative:finddoctor\\views\\patient\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|c:\\users\\oaksa\\source\\repos\\finddoctor\\finddoctor\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|solutionrelative:finddoctor\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|c:\\users\\oaksa\\source\\repos\\finddoctor\\finddoctor\\models\\patientdescriptiondetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|solutionrelative:finddoctor\\models\\patientdescriptiondetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|c:\\users\\oaksa\\source\\repos\\finddoctor\\finddoctor\\models\\patientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|solutionrelative:finddoctor\\models\\patientmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|c:\\users\\oaksa\\source\\repos\\finddoctor\\finddoctor\\models\\patientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|solutionrelative:finddoctor\\models\\patientviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|c:\\users\\oaksa\\source\\repos\\finddoctor\\finddoctor\\views\\patient\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B775A46-7F37-4866-BA68-6425885EB1B3}|FindDoctor\\FindDoctor.csproj|solutionrelative:finddoctor\\views\\patient\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +22,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "FindDoctor\\Controllers\\DoctorController.cs",
+              "ToolTip": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "FindDoctor\\Controllers\\DoctorController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T18:01:46.564Z"
             },
             {
               "$type": "Document",
@@ -44,62 +48,22 @@
               "RelativeDocumentMoniker": "FindDoctor\\Controllers\\PatientController.cs",
               "ToolTip": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\Controllers\\PatientController.cs",
               "RelativeToolTip": "FindDoctor\\Controllers\\PatientController.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAqwCkAAAAAAAAA",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAuwH4AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T17:36:47.635Z",
+              "WhenOpened": "2024-05-29T17:30:08.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "PatientDescriptionDetection.cs",
-              "DocumentMoniker": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\Models\\PatientDescriptionDetection.cs",
-              "RelativeDocumentMoniker": "FindDoctor\\Models\\PatientDescriptionDetection.cs",
-              "ToolTip": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\Models\\PatientDescriptionDetection.cs",
-              "RelativeToolTip": "FindDoctor\\Models\\PatientDescriptionDetection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T17:35:25.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PatientModel.cs",
-              "DocumentMoniker": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\Models\\PatientModel.cs",
-              "RelativeDocumentMoniker": "FindDoctor\\Models\\PatientModel.cs",
-              "ToolTip": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\Models\\PatientModel.cs",
-              "RelativeToolTip": "FindDoctor\\Models\\PatientModel.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAgwBsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T17:35:19.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PatientViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\Models\\PatientViewModel.cs",
-              "RelativeDocumentMoniker": "FindDoctor\\Models\\PatientViewModel.cs",
-              "ToolTip": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\Models\\PatientViewModel.cs",
-              "RelativeToolTip": "FindDoctor\\Models\\PatientViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-26T17:27:30.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "List.cshtml",
-              "DocumentMoniker": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\Views\\Patient\\List.cshtml",
-              "RelativeDocumentMoniker": "FindDoctor\\Views\\Patient\\List.cshtml",
-              "ToolTip": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\Views\\Patient\\List.cshtml",
-              "RelativeToolTip": "FindDoctor\\Views\\Patient\\List.cshtml",
-              "ViewState": "AQIAABQAAAAAAAAAAAAkwCoAAAAMAAAA",
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\Views\\Patient\\Update.cshtml",
+              "RelativeDocumentMoniker": "FindDoctor\\Views\\Patient\\Update.cshtml",
+              "ToolTip": "C:\\Users\\oaksa\\source\\repos\\FindDoctor\\FindDoctor\\Views\\Patient\\Update.cshtml",
+              "RelativeToolTip": "FindDoctor\\Views\\Patient\\Update.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-26T17:12:57.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T18:05:39.704Z"
             }
           ]
         }

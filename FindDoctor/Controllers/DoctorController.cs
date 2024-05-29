@@ -1,91 +1,102 @@
-﻿using FindDoctor.Data;
-using FindDoctor.Models;
+﻿
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
+using FindDoctor.Data;
+using Models;
+using FindDoctor.Models;
+using DataAccess.Repository.IRepository;
 
 namespace FindDoctor.Controllers
 {
-    
+
     public class DoctorController : Controller
     {
-        private readonly ApplicationDbContext _applicationDbContext;
-       
-
-        public DoctorController(ApplicationDbContext applicationDbContext)
+        private readonly IDoctorRepository _doctor;
+        private readonly IPatientRepository _patient;
+        private readonly IDescriptionDetectionRepository _detection;
+        public DoctorController(IDoctorRepository doctor, IPatientRepository patient, IDescriptionDetectionRepository detection)
         {
-            _applicationDbContext = applicationDbContext;
-          
+            _doctor = doctor;
+            _patient = patient;
+            _detection = detection;
         }
 
         public IActionResult List()
         {
-            var ListOfPatient = _applicationDbContext.Customers
-                .Include(p => p.DescriptionDetections)
-                .ToList();
+            var ListOfPatient = _patient.GetAll();
+            var ListOfResponse = _detection.GetAll()
+                .ToDictionary(response => response.PatientId);
+            ViewBag.ListOfResponse = ListOfResponse;
             return View(ListOfPatient);
         }
+
 
         [HttpGet]
         public IActionResult Details(int? id)
         {
-            if (id == null)
+
+            var patient = _patient.Get(p => p.CustomerId == id);
+            if (patient != null)
             {
-                return NotFound();
+                var doctorDetection = _detection.Get(p => p.PatientId == id);
+                if (doctorDetection != null)
+                {
+                    ViewBag.DoctorResponse = doctorDetection.DiseaseDetection;
+                }
+                else
+                {
+                    ViewBag.DoctorResponse = "No doctor response available.";
+                }
+
+                return View(patient);
             }
-
-            var patient = _applicationDbContext.Customers
-                .Include(p => p.DescriptionDetections)
-               
-                .FirstOrDefault(a => a.CustomerId == id);
-
-            if (patient == null)
-            {
-                return NotFound();
-            }
-
             return View(patient);
         }
 
         [HttpPost]
         public async Task<IActionResult> Details(int id, string diseaseDetection)
         {
-           
-           
-            var patientDescribe = _applicationDbContext.Customers
-                .Include(p => p.DescriptionDetections)
-                .FirstOrDefault(dd => dd.CustomerId == id);
+            var patient = _patient.Get(p => p.CustomerId == id);
+            var detection = _detection.Get(dd => dd.PatientId == id && dd.DoctorId == 1);
 
-            if (patientDescribe == null)
+            if (patient != null && detection != null)
             {
-                return NotFound("Patient not found");
-            }
-
-            var descriptionDetection = patientDescribe.DescriptionDetections
-                .FirstOrDefault(dd => dd.PatientId == id && dd.DoctorId == 1);
-
-            if (descriptionDetection != null)
-            {
-                descriptionDetection.DiseaseDetection = diseaseDetection;
-                _applicationDbContext.DescriptionDetections.Update(descriptionDetection);
+                detection.DiseaseDetection = diseaseDetection;
+                _detection.Update(detection);
             }
             else
             {
-                var newDetection = new PatientDescriptionDetection
+                if (patient == null)
                 {
-                    PatientId = id,
-                    DoctorId = 1,
-                    Description = patientDescribe.Description,
-                    DiseaseDetection = diseaseDetection
-                };
-                _applicationDbContext.DescriptionDetections.Add(newDetection);
+                    return RedirectToAction("List");
+                }
+                else
+                {
+                    var newDetection = new PatientDescriptionDetection
+                    {
+                        PatientId = id,
+                        DoctorId = 1,
+                        Description = patient.Description,
+                        DiseaseDetection = diseaseDetection
+                    };
+                    if (patient.DescriptionDetections == null)
+                    {
+                        patient.DescriptionDetections = new List<PatientDescriptionDetection>();
+                    }
+                    patient.DescriptionDetections.Add(newDetection);
+                    _patient.Update(patient);
+                }
             }
 
-            _applicationDbContext.SaveChanges();
+            _detection.Save();
+            _patient.Save();
+
             return RedirectToAction("List");
         }
+
     }
 }

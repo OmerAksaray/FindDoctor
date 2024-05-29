@@ -1,5 +1,5 @@
 ﻿using FindDoctor.Data;
-using FindDoctor.Models;
+using Models;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
@@ -8,43 +8,49 @@ using System.IO;
 using System.Threading.Tasks;
 using System;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using FindDoctor.Models;
+using DataAccess.Repository.IRepository;
+using System.Numerics;
 
 namespace FindDoctor.Controllers
 {
     public class PatientController : Controller
     {
-        private readonly ApplicationDbContext _applicationDbContext;
+        private readonly IDoctorRepository _doctor;
+        private readonly IPatientRepository _patient;
+        private readonly IDescriptionDetectionRepository _detection;
         private readonly IWebHostEnvironment _webHostEnvironment;
 
-      
-        public PatientController(ApplicationDbContext applicationDbContext, IWebHostEnvironment webHostEnvironment)
+
+        public PatientController(IWebHostEnvironment webHostEnvironment, IDoctorRepository doctor, IPatientRepository patient, IDescriptionDetectionRepository detection)
         {
-            _applicationDbContext = applicationDbContext;
+            _doctor = doctor;
+            _patient = patient;
+            _detection = detection;
             _webHostEnvironment = webHostEnvironment;
         }
+       
+       
 
-      
         [HttpGet]
         public IActionResult Consultation()
         {
-            
+
             PatientViewModel patientViewModel = new PatientViewModel
             {
                 _PatientModel = new PatientModel(),
-                DeartmentList = _applicationDbContext.Doctors.Where(n => n.DoctorId > 0).Select(
-                    s=> new SelectListItem
-                    {
-                        Text = s.Department,
-                        Value= s.DoctorId.ToString()
-                    }
-                    )
+                DepartmentList = _doctor.GetAll().Select(
+                 s => new SelectListItem
+                 {
+                     Text = s.Department,
+                     Value = s.DoctorId.ToString()
+                 }
+             )
             };
 
+            return View(patientViewModel);
 
-           
-                return View(patientViewModel);
 
-           
         }
 
 
@@ -76,9 +82,9 @@ namespace FindDoctor.Controllers
 
                    
                     patientModel._PatientModel.ReportFile = "/images/reports/" + fileName;
-                    _applicationDbContext.Customers.Add(patientModel._PatientModel);
+                    _patient.Add(patientModel._PatientModel);
 
-                    await _applicationDbContext.SaveChangesAsync();
+                   _patient.Save();
                 }
                 return RedirectToAction("List");
             }
@@ -89,25 +95,17 @@ namespace FindDoctor.Controllers
 
         public IActionResult List()
         {
-            var patients = _applicationDbContext.Customers
-                .Include(p => p.DescriptionDetections) // Ensure related data is included
-                .ToList();
+            //var patients = _applicationDbContext.Customers
+            //    .Include(p => p.DescriptionDetections) // Ensure related data is included
+            //    .ToList();
 
-            var departmentList = _applicationDbContext.Doctors
-                .Where(n => n.DoctorId > 0)
-                .Select(s => new SelectListItem
-                {
-                    Text = s.Department,
-                    Value = s.DoctorId.ToString()
-                }).ToList();
+            var patients = _patient.GetAll();
+            var ListOfResponse = _detection.GetAll()
+               .ToDictionary(response => response.PatientId);
+            ViewBag.ListOfResponse = ListOfResponse;
 
-            var patientViewModels = patients.Select(patient => new PatientViewModel
-            {
-                _PatientModel = patient,
-                DeartmentList = departmentList
-            }).ToList();
 
-            return View(patientViewModels);
+            return View(patients);
         }
 
 
@@ -120,7 +118,7 @@ namespace FindDoctor.Controllers
             PatientViewModel patientViewModel = new PatientViewModel
             {
                 _PatientModel = new PatientModel(),
-                DeartmentList = _applicationDbContext.Doctors.Where(n => n.DoctorId > 0).Select(
+                DepartmentList = _doctor.GetAll().Select(
                     s => new SelectListItem
                     {
                         Text = s.Department,
@@ -129,10 +127,16 @@ namespace FindDoctor.Controllers
                     )
             };
 
-            patientViewModel._PatientModel = _applicationDbContext.Customers
-               .Include(p => p.DescriptionDetections)
-
-               .FirstOrDefault(a => a.CustomerId == id);
+            patientViewModel._PatientModel = _patient
+               .Get(a => a.CustomerId == id);
+            if(_detection.Get(p => p.PatientId == id) != null) { 
+            
+            ViewBag.DescriptionDetection=_detection.Get(p=>p.PatientId == id).DiseaseDetection;
+            }
+            else
+            {
+                ViewBag.DescriptionDetection = "Not reccomendation yet.";
+            }
             return View(patientViewModel);
            
         }
@@ -144,13 +148,13 @@ namespace FindDoctor.Controllers
         {
             if (delete==true)
             {
-                _applicationDbContext.Customers.Remove(patientModel._PatientModel);
-                _applicationDbContext.SaveChanges();
+                _patient.Remove(patientModel._PatientModel.CustomerId);
+                _patient.Save();
                 return RedirectToAction("List");
             }
             if (ModelState.IsValid)
             {
-                var patient = await _applicationDbContext.Customers.FindAsync(patientModel._PatientModel.CustomerId);
+                var patient =  _patient.Get(p=>p.CustomerId==patientModel._PatientModel.CustomerId);
                 if (patient == null)
                 {
                     return NotFound();
@@ -186,8 +190,8 @@ namespace FindDoctor.Controllers
                 patient.Description = patientModel._PatientModel.Description;
                 patient.DescriptionDetections = patientModel._PatientModel.DescriptionDetections;
                 patient.DoctorId = patientModel._PatientModel.DoctorId;
-                _applicationDbContext.Update(patient);
-                await _applicationDbContext.SaveChangesAsync();
+                _patient.Update(patient);
+                _patient.Save();
 
                 return RedirectToAction("List");
             }

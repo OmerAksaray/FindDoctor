@@ -1,4 +1,4 @@
-﻿@model FindDoctor.Models.PatientModel
+﻿@model PatientModel
 
 <div class="container">
     <h2 class="text-center">Patient Message Form For Doctors</h2>
@@ -11,14 +11,13 @@
         </div>
         <div class="form-group">
             <label>Doctor Responses:</label>
-            @if (Model.DescriptionDetections != null && Model.DescriptionDetections.Any())
+            @if (@ViewBag.DoctorResponse != null )
             {
-                @foreach (var detection in Model.DescriptionDetections)
-                {
+               
                     <div class="form-group">
-                        <textarea class="form-control" rows="5" disabled>@detection.DiseaseDetection</textarea>
+                    <textarea class="form-control" rows="5" disabled>@ViewBag.DoctorResponse</textarea>
                     </div>
-                }
+               
             }
             else
             {
