@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+﻿
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 
 namespace FindDoctor.Models
 {
@@ -16,6 +18,7 @@ namespace FindDoctor.Models
 
         [Required]
         public string Department { get; set; }
+
         [ValidateNever]
         public ICollection<PatientDescriptionDetection> DescriptionDetections { get; set; }
 

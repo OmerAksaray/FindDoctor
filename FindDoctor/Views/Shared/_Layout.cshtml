@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/FindDoctor.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.dataTables.css" />
+
+   
+
 </head>
 <body>
     <header>
@@ -20,19 +25,19 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="user" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="user" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Doctor" asp-action="List">Doctor Operations</a>
+                            <a class="nav-link text-dark" asp-area="doctor" asp-controller="Doctor" asp-action="List">Doctor Operations</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Patient" asp-action="Consultation">Message Create</a>
+                            <a class="nav-link text-dark" asp-area="user" asp-controller="Patient" asp-action="Consultation">Message Create</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Patient" asp-action="List">Message  List Of Customer</a>
+                            <a class="nav-link text-dark" asp-area="user" asp-controller="Patient" asp-action="List">Message  List Of Customer</a>
                         </li>
                     </ul>
                 </div>
@@ -50,9 +55,11 @@
             &copy; 2024 - FindDoctor - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
+    <script src="https://cdn.datatables.net/2.0.8/js/dataTables.js"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

@@ -13,7 +13,7 @@ namespace DataAccess.Repository.IRepository
 
         T? Get(Expression<Func<T,bool>> filter);
 
-        IEnumerable<T> GetAll();
+        IEnumerable<T> GetAll(string? includeProperties = null);
 
         void Remove(int id);
     }
